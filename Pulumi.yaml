@@ -1,0 +1,10 @@
+name: ha-vpc-ec2-podinfo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal AWS Python Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
